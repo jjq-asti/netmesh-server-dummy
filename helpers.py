@@ -32,8 +32,9 @@ def generate_users(n):
     return list(users)
 
 
-def register_users(users):
+def register_user(user):
     # TODO: submit generated random users to results server
+
     pass
 
 
