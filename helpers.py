@@ -1,4 +1,3 @@
-import json
 from randomuser import RandomUser
 
 from ntc_regions import ntc_region_choices
@@ -32,9 +31,11 @@ def generate_users(n):
 
     return list(users)
 
+
 def register_users(users):
     # TODO: submit generated random users to results server
     pass
+
 
 if __name__ == "__main__":
     rand_users = generate_users(20)
